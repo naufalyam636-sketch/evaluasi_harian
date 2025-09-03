@@ -7,10 +7,12 @@
 </head>
 <body>
     <script>
-    let produk = 15000
-       let produk2 = 10000
-       let total = (produk + produk2)
-       console.log( "total harga adalah"  +  total )
+    let totalBelanja = prompt("total belanja",0)
+    if(totalBelanja  >= 100000) {
+        document.write("<h2>selamat anda mendapat bonus</h2>")   
+    } else{
+        document.write("terima kasih telah berbelanja")
+    }
        </script>
 </body>
 </html>
